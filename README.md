@@ -1,6 +1,6 @@
 # Snowflake Web Data Enrichment
 
-A Snowflake-native data app that turns a list of local search queries into a rich business universe using [Nimble Web Search Agents](https://nimbleway.com). Start with a table of queries like "coffee shops in Williamsburg Brooklyn" or "gyms in Austin Texas" — get back a structured `LOCAL_BUSINESSES` table with names, categories, addresses, ratings, review counts, phone numbers, websites, coordinates, and Google Maps URLs. All from SQL.
+A Snowflake-native cookbook that turns a list of local search queries into a rich business universe using [Nimble Web Search Agents](https://nimbleway.com). Start with a table of queries like "coffee shops in Williamsburg Brooklyn" or "gyms in Austin Texas" — get back a structured `LOCAL_BUSINESSES` table with names, categories, addresses, ratings, review counts, phone numbers, websites, coordinates, and Google Maps URLs. All from SQL.
 
 ---
 
