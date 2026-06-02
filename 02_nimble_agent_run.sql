@@ -1,9 +1,9 @@
 /*
- * 02_nimble_agent_run.sql — wraps POST https://sdk.nimbleway.com/v1/agents/run
+ * udtf-data-feeds/nimble_agent_run.sql — wraps POST https://sdk.nimbleway.com/v1/agents/run
  *
  * Role:        NIMBLE_ROLE
  * Creates:     NIMBLE_INTEGRATION.TOOLS.NIMBLE_AGENT_RUN(...) RETURNS TABLE
- * Prereq:      01_setup.sql has run successfully
+ * Prereq:      setup/setup.sql has run successfully
  * Runtime:     ~5 seconds to create; ~5-60s per call depending on the agent
  *              (e.g. amazon_pdp ~10-20s; google_search ~3-8s).
  *

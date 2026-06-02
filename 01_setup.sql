@@ -1,8 +1,8 @@
 /*
- * 01_setup.sql — Nimble × Snowflake integration (shared infrastructure)
+ * setup/setup.sql — Nimble × Snowflake integration (shared infrastructure)
  *
  * Role:        ACCOUNTADMIN (the rest of the deployment runs as NIMBLE_ROLE)
- * Creates:     NIMBLE_ROLE, NIMBLE_INTEGRATION database + TOOLS/AGENTS/RECIPES schemas,
+ * Creates:     NIMBLE_ROLE, NIMBLE_INTEGRATION database + TOOLS/AGENTS schemas,
  *              NIMBLE_AGENT_WH warehouse, NIMBLE_API_RULE network rule,
  *              NIMBLE_API_KEY secret, NIMBLE_API_ACCESS external access integration.
  * Prereq:      A Nimble API key — get one at https://online.nimbleway.com/account-settings/api-keys
@@ -11,7 +11,7 @@
  * Substitute the placeholder below before running:
  *   <<YOUR_NIMBLE_API_KEY>>   the raw Bearer token (no "Bearer " prefix)
  *
- * Run order: 01 → 02 → 03
+ * Run order: 01 → 02 → 03 → 04. Then open the recipe notebook in Snowsight.
  */
 
 USE ROLE ACCOUNTADMIN;
