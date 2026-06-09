@@ -1,4 +1,4 @@
-# Claude Code Instructions — Snowflake Web Data Enrichment (UDTF)
+# AI Setup Instructions — Snowflake Web Data Enrichment (UDTF)
 
 You are helping the user set up and run the Snowflake Web Data Enrichment cookbook. Follow these steps in order. Check each prerequisite before proceeding. Tell the user what you're doing at each step.
 
